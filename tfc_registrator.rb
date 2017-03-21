@@ -19,7 +19,7 @@ class TfcRegistrator
     form.first_name = 'Hello'
     form.last_name = 'Taxikick'
 
-    page = agent.submit(form)
+    agent.submit(form)
   end
 end
 
